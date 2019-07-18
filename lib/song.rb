@@ -36,6 +36,7 @@ class Song
   
   def self.genre_count 
     hash = {}
+    @@genres
     
   end
   # 
