@@ -53,7 +53,7 @@ class Song
     
 end
 
-x = [1, 2, 3, 4, 5, 3, 1, 7, 8]
+x = ["rap", "pop", "alt", "rock", "pop", "rock", "rock", "alt", "heavy metal"]
 
 
     hash = {}
