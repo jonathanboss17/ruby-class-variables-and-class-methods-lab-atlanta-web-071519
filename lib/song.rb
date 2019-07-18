@@ -8,9 +8,10 @@ class Song
     
     @@count += 1 
     
-    !@@artists.include?(name) ? @@artists << artist
-    # @@artists << artist
-    
+    if(!@@artists.include?(name))
+      @@artists << artist
+    end 
+
     @@genres << genre
     
   end
