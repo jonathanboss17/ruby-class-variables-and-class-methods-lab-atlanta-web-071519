@@ -47,10 +47,25 @@ class Song
       end
       count = 0
     end
-    puts hash
+    
   end
   # 
     
 end
 
+x = [1, 2, 3, 4, 5, 3, 1, 7, 8]
 
+
+    hash = {}
+    count = 0 
+    
+    for i in x do 
+      for j in x do 
+        if(i == j)
+          count += 1 
+          hash[i] = count
+        end 
+      end
+      count = 0
+    end
+puts hash 
