@@ -10,11 +10,7 @@ class Song
     
     @@artists << artist
     
-    @count.times do |i|
-      if(name!= @@genres[i] )
-        @@genres << genre
-      end
-    end
+    @@genres << genre
     
   end
   
