@@ -24,8 +24,11 @@ class Song
     @@count
   end
   
-  def self.artists 
-    @@artists 
+  def self.artists
+    @@count.times do |i|
+      if()
+      @@artists 
+    
   end
   
   def self.genres 
