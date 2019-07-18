@@ -8,7 +8,7 @@ class Song
     
     @@count += 1 
 
-    if(@@count > 1 && @@artists.include?(artist) == false)
+    if(@@artists.include?(artist) == false)
       @@artists << artist
     end 
     
