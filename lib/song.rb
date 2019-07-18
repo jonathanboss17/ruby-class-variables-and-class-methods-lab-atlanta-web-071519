@@ -51,7 +51,19 @@ class Song
   end
   
   def self.artist_count
+    hash = {}
+    count = 0 
     
+    for i in @@artists do 
+      for j in @@artists do 
+        if(i == j)
+          count += 1 
+          hash[i] = count
+        end 
+      end
+      count = 0
+    end
+    hash
   end
   
   # 
