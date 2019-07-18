@@ -47,7 +47,7 @@ class Song
       end
       count = 0
     end
-    
+    puts hash
   end
   # 
     
