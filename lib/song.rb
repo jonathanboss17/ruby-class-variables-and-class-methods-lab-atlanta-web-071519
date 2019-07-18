@@ -50,6 +50,15 @@ class Song
     hash 
   end
   
+  
+  # other way to do the method above or below
+  # hash = {}
+  # count = 0 
+  # @@artists.each do |artist|
+  #     hash[artist] = @@artists.count(artist)
+  # end
+  # hash
+    
   def self.artist_count
     hash = {}
     count = 0 
