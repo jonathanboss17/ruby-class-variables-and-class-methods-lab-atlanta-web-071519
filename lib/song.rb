@@ -20,7 +20,7 @@ class Song
   @@artists = []
   @@genres = []
   @@genre_count = {}
-  @artist_count = {}
+  @@artist_count = {}
   
   def self.count 
     @@count
@@ -34,6 +34,10 @@ class Song
     @@genres.uniq
   end
   
+  def self.genre_count 
+    hash = {}
+    
+  end
   # 
     
 end
